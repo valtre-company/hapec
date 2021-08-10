@@ -1,0 +1,41 @@
+/*==================================================================================
+    Custom Stylesheet ( Any custom styling you want to apply should be defined here ).
+====================================================================================*/
+
+:root { /* override palette color */
+    --primary: #FF914D !important;
+    --secondary: #565656 !important;
+}
+
+@font-face {
+    font-family: 'Minimo';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Minimo'), local('Minimo'), url(../fonts/web-fonts/Minimo.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Minimo';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Minimo'), local('Minimo'), url(../fonts/web-fonts/Minimo\ Light.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Minimo';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Minimo'), local('Minimo'), url(../fonts/web-fonts/Minimo\ Medium.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Minimo';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Minimo'), local('Minimo'), url(../fonts/web-fonts/Minimo\ Bold.woff2) format('woff2');
+}
+
+*, body p, body button, body a.btn, body .btn, body .sl-cta, body .sl-caption-prop-features, body input, body textarea, body select, body .select, body .field-wrapper, body .h1, body h1, body h2, body h3, body h4, body h5, body h6, body .sl-caption-prop-title, body .section-title h3, body .heading {
+    font-family: 'Minimo', sans-serif;
+}
+
+.logo-footer {
+    width: 140px;
+}
