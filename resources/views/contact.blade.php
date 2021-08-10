@@ -54,26 +54,22 @@
                     @csrf
                     <div class="field-wrapper mb-4">
                         <label for="name" class="sr-only">Nombre Completo</label>
-                        <input type="text" class="rounded-0" name="name" id="name" minlength="10" value="Armando Rodriguez Hernandez">
+                        <input type="text" class="rounded-0" name="name" id="name" minlength="10">
                         <span class="field-placeholder">Nombre Completo</span>
                     </div>
                     <div class="field-wrapper mb-4">
                         <label for="email" class="sr-only">Correo Electrónico</label>
-                        <input type="email" class="rounded-0" name="email" id="email" minlength="8" value="rodriguezhernandezarmando7@gmail.com">
+                        <input type="email" class="rounded-0" name="email" id="email" minlength="8">
                         <span class="field-placeholder">Correo Electrónico</span>
                     </div>
                     <div class="field-wrapper mb-4">
                         <label for="phone" class="sr-only">Teléfono</label>
-                        <input type="phone" class="rounded-0" name="phone" id="phone-contact-view" minlength="10" maxlength="20" value="(811) 123-4567">
+                        <input type="phone" class="rounded-0" name="phone" id="phone-contact-view" minlength="10" maxlength="20">
                         <span class="field-placeholder">Teléfono</span>
                     </div>
                     <div class="field-wrapper mb-4">
                         <label for="message" class="sr-only">Mensaje</label>
-                        <textarea cols="50" id="message" name="message" class="rounded-0" rows="5" minlength="20">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maiores omnis! Ducimus sapiente odio vel in, quaerat quam. Ea ipsam harum adipisci deserunt quas nisi voluptatum minus velit, natus magnam!
-
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam enim voluptates id cupiditate odit, aliquid, architecto ea consectetur.
-                        </textarea>
+                        <textarea cols="50" id="message" name="message" class="rounded-0" rows="5" minlength="20"></textarea>
                         <span class="field-placeholder">Ingresa Tu Mensaje</span>
                     </div>
                     <button type="submit" class="btn p-0">
