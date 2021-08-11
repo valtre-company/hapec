@@ -141,10 +141,8 @@
                                     <a href="{{ route('contact.view') }}">Contacto</a>
                                 </p>
                                 <ul class="social-icon liquid-animate theme-color icon-size-small text-left mt-20">
-                                    <li class="facebook"><a href="https://www.facebook.com/hapecdistribuidora/" class="link rounded-0" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                                    <li class="twitter"><a href="#" class="link rounded-0" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="instagram"><a href="#" class="link rounded-0" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                    <li class="dribbble"><a href="#" class="link rounded-0" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+                                    <li class="facebook"><a href="https://www.facebook.com/hapecdistribuidora/" target="_blank" class="link rounded-0" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                                    <li class="linkedin"><a href="https://www.linkedin.com/company/hapecdistribuidora/" target="_blank" class="link rounded-0" aria-label="Linkedin"><i class="fab fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                             <div class="col-md-6 col-lg-4 mt-30 mt-lg-0">

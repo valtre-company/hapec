@@ -51,7 +51,7 @@ class IndexController extends Controller
                 'message' => $request->message,
                 'date' => (new Carbon)->isoFormat('D/M/YYYY H:m'),
             ];
-            
+
             SendMailJob::dispatch(
                 'emails.contact', // view
                 $data,
