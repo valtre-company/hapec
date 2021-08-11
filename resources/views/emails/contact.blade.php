@@ -183,7 +183,7 @@
                                                 border="0"
                                                 style="cellspacing:0;color:#000;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;text-align:left; margin-bottom:7px;">
                                                 <tr>
-                                                    <th style="padding: 0 15px 0px 0;">Nombre</th>
+                                                    <th style="padding: 0 15px 0px 0;text-align:left;">Nombre</th>
                                                     <th style="padding: 0 15px;"></th>
                                                     <th style="padding: 0 0 0 15px;" align="right"></th>
                                                 </tr>
@@ -198,7 +198,7 @@
                                                 border="0"
                                                 style="cellspacing:0;color:#000;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;text-align:left;margin-bottom:7px;">
                                                 <tr>
-                                                    <th style="padding: 0 15px 0px 0;">Correo electrónico</th>
+                                                    <th style="padding: 0 15px 0px 0;text-align: left;">Correo electrónico</th>
                                                     <th style="padding: 0 15px;"></th>
                                                     <th style="padding: 0 0 0 15px;" align="right"></th>
                                                 </tr>
@@ -213,7 +213,7 @@
                                                 border="0"
                                                 style="cellspacing:0;color:#000;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;text-align:left;margin-bottom:7px;">
                                                 <tr>
-                                                    <th style="padding: 0 15px 0px 0;">Número de teléfono</th>
+                                                    <th style="padding: 0 15px 0px 0;text-align: left;">Número de teléfono</th>
                                                     <th style="padding: 0 15px;"></th>
                                                     <th style="padding: 0 0 0 15px;" align="right"></th>
                                                 </tr>
@@ -228,7 +228,7 @@
                                                 border="0"
                                                 style="cellspacing:0;color:#000;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;text-align:left;margin-bottom:7px;">
                                                 <tr>
-                                                    <th style="padding: 0 15px 0px 0;">Mensaje</th>
+                                                    <th style="padding: 0 15px 0px 0;text-align: left;">Mensaje</th>
                                                     <th style="padding: 0 15px;"></th>
                                                     <th style="padding: 0 0 0 15px;" align="right"></th>
                                                 </tr>
