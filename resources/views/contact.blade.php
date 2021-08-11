@@ -64,7 +64,7 @@
                     </div>
                     <div class="field-wrapper mb-4">
                         <label for="phone" class="sr-only">Teléfono</label>
-                        <input type="phone" class="rounded-0" name="phone" id="phone-contact-view" minlength="10" maxlength="20">
+                        <input type="phone" class="rounded-0" name="phone" minlength="10" maxlength="15">
                         <span class="field-placeholder">Teléfono</span>
                     </div>
                     <div class="field-wrapper mb-4">
