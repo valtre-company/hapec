@@ -64,18 +64,18 @@
             <a class="sl-carousel-control-prev" role="button" data-slide="prev">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32.414" height="20.828" viewBox="0 0 32.414 20.828">
                     <g id="Group_30" data-name="Group 30" transform="translate(-1845.086 -1586.086)">
-                        <line id="Line_2" data-name="Line 2" x1="30" transform="translate(1846.5 1596.5)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="2" />
-                        <line id="Line_3" data-name="Line 3" x1="9" y2="9" transform="translate(1846.5 1587.5)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="2" />
-                        <line id="Line_4" data-name="Line 4" x1="9" y1="9" transform="translate(1846.5 1596.5)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_2" data-name="Line 2" x1="30" transform="translate(1846.5 1596.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_3" data-name="Line 3" x1="9" y2="9" transform="translate(1846.5 1587.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_4" data-name="Line 4" x1="9" y1="9" transform="translate(1846.5 1596.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" />
                     </g>
                 </svg>
             </a>
             <a class="sl-carousel-control-next" role="button" data-slide="next">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32.414" height="20.828" viewBox="0 0 32.414 20.828">
                     <g id="Symbol_1_1" data-name="Symbol 1 – 1" transform="translate(-1847.5 -1589.086)">
-                        <line id="Line_5" data-name="Line 2" x2="30" transform="translate(1848.5 1599.5)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="2" />
-                        <line id="Line_6" data-name="Line 3" x2="9" y2="9" transform="translate(1869.5 1590.5)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="2" />
-                        <line id="Line_7" data-name="Line 4" y1="9" x2="9" transform="translate(1869.5 1599.5)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_5" data-name="Line 2" x2="30" transform="translate(1848.5 1599.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_6" data-name="Line 3" x2="9" y2="9" transform="translate(1869.5 1590.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_7" data-name="Line 4" y1="9" x2="9" transform="translate(1869.5 1599.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" />
                     </g>
                 </svg>
             </a>
@@ -110,7 +110,7 @@
 
 <!-- About Us Start -->
 <section id="about" class="position-relative bg-white ptb-100 ptb-md-80 ptb-sm-60 z-index-2 parallax-scene">
-    <div class="container">
+    <div class="container ptb-100 ptb-md-80">
         <div class="row">
             <div class="col-md-12 section-title text-center mb-5">
                 <h2>Conoce Más De Nosotros<br></h2>
@@ -124,31 +124,24 @@
                         <article class="box-icon-classic mb-4 text-center">
                             <div class="d-flex align-items-center justify-content-center justify-content-md-center ">
                                 <h3 class="mr-2 mb-0 font-size-70">01</h3>
-                                <h6 class="box-icon-classic-title font-size-22 mb-0 text-left"><a class="text-dark" href="#">Empresa <br>Líder</a></h6>
+                                <h6 class="box-icon-classic-title font-size-22 mb-0 text-left"><a class="text-dark" >Misión<br>De Empresa</a></h6>
                             </div>
                             <div class="box-icon-classic-text font-size-18">
-                                Somos una empresa mexicana líder en el rubro de distribución de materiales para construcción. Contamos con una amplia gama de productos que cubren cada una de las necesidades de nuestros clientes y sus proyectos.
+                                Satisfacer las necesidades de nuestros clientes en la distribución y suministro de materiales para la construcción, garantizando la calidad, precio y servicio de los productos que manejamos.
                             </div>
                         </article>
                     </div>
-                    {{-- <div class="col-md-4">
-                        <article class="box-icon-classic mb-4">
-                            <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                    <div class="col-md-5 mx-auto">
+                        <article class="box-icon-classic mb-4 text-center">
+                            <div class="d-flex align-items-center justify-content-center justify-content-md-center ">
                                 <h3 class="mr-2 mb-0 font-size-70">02</h3>
-                                <h6 class="box-icon-classic-title font-size-22  mb-0"><a class="text-dark" href="#">Years</a></h6>
+                                <h6 class="box-icon-classic-title font-size-22 mb-0 text-left"><a class="text-dark" >Visión<br>De Empresa</a></h6>
                             </div>
-                            <div class="box-icon-classic-text font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </div>
+                            <div class="box-icon-classic-text font-size-18">
+                                Ser reconocidos como una empresa líder en el giro de distribución de materiales para construcción, conservando siempre la confianza de nuestros clientes a través de nuestro servicio, experiencia y valores.
+                            </div>
                         </article>
                     </div>
-                    <div class="col-md-4">
-                        <article class="box-icon-classic mb-4">
-                            <div class="d-flex align-items-center justify-content-center justify-content-md-start">
-                                <h3 class="mr-2 mb-0 font-size-70">03</h3>
-                                <h6 class="box-icon-classic-title font-size-22  mb-0"><a class="text-dark" href="#">Awards</a></h6>
-                            </div>
-                            <div class="box-icon-classic-text font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </div>
-                        </article>
-                    </div> --}}
                 </div>
             </div>
             <!-- <div class="col-md-12 col-lg-12 mt-30">
@@ -232,16 +225,18 @@
 </section>
 
 <section id="catalogue" class="position-relative bg-white ptb-100 ptb-md-80 ptb-sm-60 z-index-2 parallax-scene">
-    <div class="container">
+    <div class="container ptb-100 ptb-md-80">
         <div class="row align-items-center justify-content-md-between">
             <div class="col-md-4 col-lg-6">
                 <div class="row">
                     <div class="col-sm-4 col-md-12 col-xl-11">
                         <article class="box-icon-classic mb-4">
                             <div class="box-icon-classic-header">
-                                <img src="{{ asset('svg/hammer.svg') }}" alt="" width="50px" height="50px" />
+                                <div class="box-icon-classic-icon">
+                                    <img src="{{ asset('svg/hammer.svg') }}" alt="" width="50px" height="50px" />
+                                </div>
                                 <div class="d-flex flex-column">
-                                    <h6 class="box-icon-classic-title font-size-22 mb-0"><a class="text-dark" href="#">Herramientas</a></h6>
+                                    <h6 class="box-icon-classic-title font-size-22 mb-0"><a class="text-dark">Herramientas</a></h6>
                                     <p class="box-icon-classic-text font-size-16 text-black mb-0">Herramientas básicas para tu obra.</p>
                                 </div>
                             </div>
@@ -254,8 +249,8 @@
                                     <img src="{{ asset('svg/brickwall.svg') }}" alt="Brickwall Icon" width="50px" height="50px">
                                 </div>
                                 <div class="d-flex flex-column">
-                                    <h6 class="box-icon-classic-title font-size-22 mb-0"><a class="text-dark" href="#">Materiales</a></h6>
-                                    <p class="box-icon-classic-text font-size-16 text-black mb-0">Materiales de construcción; yeso, arena, block, etc.</p>
+                                    <h6 class="box-icon-classic-title font-size-22 mb-0"><a class="text-dark">Materiales</a></h6>
+                                    <p class="box-icon-classic-text font-size-16 text-black mb-0">Cemento, block, yeso, arena, adhesivo etc.</p>
                                 </div>
                             </div>
                         </article>
@@ -265,8 +260,8 @@
                             <div class="box-icon-classic-header">
                                 <div class="box-icon-classic-icon novi-icon ti-light-bulb"></div>
                                 <div class="d-flex flex-column">
-                                    <h6 class="box-icon-classic-title font-size-22 mb-0"><a class="text-dark" href="#">Eléctrico</a></h6>
-                                    <p class="box-icon-classic-text font-size-16 text-black mb-0">Equipo de protección, herramientas y material eléctrico.</p>
+                                    <h6 class="box-icon-classic-title font-size-22 mb-0"><a class="text-dark">Eléctrico</a></h6>
+                                    <p class="box-icon-classic-text font-size-16 text-black mb-0">Cable, manguera, centros de carga, pastillas, etc.</p>
                                 </div>
                             </div>
                         </article>
@@ -274,10 +269,38 @@
                     <div class="col-sm-4 col-md-12 col-xl-11">
                         <article class="box-icon-classic mb-4">
                             <div class="box-icon-classic-header">
-                                <img src="{{ asset('svg/helmet.svg') }}" alt="Brickwall Icon" width="50px" height="50px">
+                                <div class="box-icon-classic-icon">
+                                    <img src="{{ asset('svg/helmet.svg') }}" alt="Brickwall Icon" width="50px" height="50px">
+                                </div>
                                 <div class="d-flex flex-column">
-                                    <h6 class="box-icon-classic-title font-size-22 mb-0"><a class="text-dark" href="#">Equipo de Protección</a></h6>
+                                    <h6 class="box-icon-classic-title font-size-22 mb-0"><a class="text-dark">Equipo de Protección</a></h6>
                                     <p class="box-icon-classic-text font-size-16 text-black mb-0">Cumple con los estándares de seguridad.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-md-12 col-xl-11">
+                        <article class="box-icon-classic mb-4">
+                            <div class="box-icon-classic-header">
+                                <div class="box-icon-classic-icon">
+                                    <img src="{{ asset('svg/cuenca.svg') }}" alt="Brickwall Icon" width="50px" height="50px">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <h6 class="box-icon-classic-title font-size-22 mb-0"><a class="text-dark">Plomería</a></h6>
+                                    <p class="box-icon-classic-text font-size-16 text-black mb-0">Conectores, tubería cobre, galvanizada, PVC, etc.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-md-12 col-xl-11">
+                        <article class="box-icon-classic mb-4">
+                            <div class="box-icon-classic-header">
+                                <div class="box-icon-classic-icon">
+                                    <img src="{{ asset('svg/abrasive.svg') }}" alt="Brickwall Icon" width="70px" height="70px">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <h6 class="box-icon-classic-title font-size-22 mb-0"><a class="text-dark">Abrasivos</a></h6>
+                                    <p class="box-icon-classic-text font-size-16 text-black mb-0">Disco de corte, laminado, diamante, desbaste, electrodos para soldar, etc.</p>
                                 </div>
                             </div>
                         </article>
@@ -289,7 +312,7 @@
                     <h2 class="text-center text-md-left">Descarga nuestro catálogo</h2>
                     <div class="form-style-1 context-dark">
                         <!-- RD Mailform-->
-                        <form action="{{ route('download.catalogue') }}" method="POST" class="rd-mailform text-left p-lg-5">
+                        <form action="{{ route('download.catalogue') }}" method="POST" class="rd-mailform text-left py-3 p-lg-5">
                             @csrf
                             <button id="catalogue-form-submit-btn" type="submit" class="btn p-0 w-100" aria-label="Submit Button">
                                 <span class="icon-button-rl btn-ex-small active rounded-0 w-100 bg-color border-0 font-size-16">
@@ -321,7 +344,7 @@
                 <div class="section-title dark-version text-center text-md-left mb-5 mb-md-0">
                     <h2>Future Properties</h2>
                     <p class="text-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="btn p-0 mt-20">
+                    <a  class="btn p-0 mt-20">
                         <span class="icon-button-rl font-size-14 bg-transparent hover-bg-color border hover-border-color border-white rounded-0">
                             <span class="text-white">Browse All</span>
                             <i class="fa fa-arrow-right bg-transparent shadow-none" aria-hidden="true"></i>
@@ -340,7 +363,7 @@
                                     <span class="features">350Sq. | 2 Bed | 2 Hall</span>
                                 </div>
                                 <div class="fancy-box-info">
-                                    <a href="#" class="btn mb-4 p-0">
+                                    <a  class="btn mb-4 p-0">
                                         <span class="icon-button-rl btn-link p-0 m-0">
                                             <span class="text-white text-uppercase">View Details</span>
                                         </span>
@@ -358,7 +381,7 @@
                                     <span class="features">350Sq. | 2 Bed | 2 Hall</span>
                                 </div>
                                 <div class="fancy-box-info">
-                                    <a href="#" class="btn mb-4 p-0">
+                                    <a  class="btn mb-4 p-0">
                                         <span class="icon-button-rl btn-link p-0 m-0">
                                             <span class="text-white text-uppercase">View Details</span>
                                         </span>
@@ -376,7 +399,7 @@
                                     <span class="features">350Sq. | 2 Bed | 2 Hall</span>
                                 </div>
                                 <div class="fancy-box-info">
-                                    <a href="#" class="btn mb-4 p-0">
+                                    <a  class="btn mb-4 p-0">
                                         <span class="icon-button-rl btn-link p-0 m-0">
                                             <span class="text-white text-uppercase">View Details</span>
                                         </span>
@@ -394,7 +417,7 @@
                                     <span class="features">350Sq. | 2 Bed | 2 Hall</span>
                                 </div>
                                 <div class="fancy-box-info">
-                                    <a href="#" class="btn mb-4 p-0">
+                                    <a  class="btn mb-4 p-0">
                                         <span class="icon-button-rl btn-link p-0 m-0">
                                             <span class="text-white text-uppercase">View Details</span>
                                         </span>
@@ -425,7 +448,7 @@
                         <div class="grid vertical">
                             <div class="column-xs-12 column-md-2 d-none d-md-block">
                                 <div class="intro">
-                                    <a href="#">
+                                    <a >
                                         <h3 class="title bg-light-black font-weight-700"><span>Explore Kyoto</span></h3>
                                     </a>
                                 </div>

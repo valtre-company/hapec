@@ -131,24 +131,31 @@
             <!-- footer part Start -->
             <footer class="footer-part footer-classic bg-light-black">
                 <div class="inner text-style-light ptb-60 basic-thine-line">
-                    <div class="container">
+                    <div class="container mt-3">
                         <div class="row text-left justify-content-center">
-                            <div class="col-md-6 col-lg-4">
+                            <div class="col-md-3 col-lg-3 mt-3">
                                 <img src="{{ asset('img/logo/2.png') }}" alt="Hapec Logo" class="logo-footer">
-                                <p class="footer-links mt-3">
-                                    <a href="{{ route('home') }}" class="link-1">Inicio</a>
-                                    <a href="{{ route('home') }}#catalogue">Catálogo</a>
-                                    <a href="{{ route('contact.view') }}">Contacto</a>
-                                </p>
-                                <ul class="social-icon liquid-animate theme-color icon-size-small text-left mt-20">
-                                    <li class="facebook"><a href="https://www.facebook.com/hapecdistribuidora/" target="_blank" class="link rounded-0" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                                    <li class="linkedin"><a href="https://www.linkedin.com/company/hapecdistribuidora/" target="_blank" class="link rounded-0" aria-label="Linkedin"><i class="fab fa-linkedin"></i></a></li>
-                                </ul>
                             </div>
-                            <div class="col-md-6 col-lg-4 mt-30 mt-lg-0">
+                            <div class="col-md-3 col-lg-3 mt-3">
+                                <h3>Mapa de sitio</h3>
+                                <div class="footer-link">
+                                    &bull; <a href="{{ route('home') }}" class="link-1">Inicio</a>
+                                </div>
+                                <div class="footer-link">
+                                    &bull; <a href="{{ route('home') }}#about">Conócenos</a>
+                                </div>
+                                <div class="footer-link">
+                                    &bull; <a href="{{ route('home') }}#catalogue">Catálogo</a>
+                                </div>
+                                <div class="footer-link">
+                                    &bull; <a href="{{ route('contact.view') }}">Contacto</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-lg-3 mt-3">
+                                <h3>Información</h3>
                                 <div class="contact-mata">
                                     <i class="fa fa-map-marker"></i>
-                                    <p><span>Álvaro Obregón 327 </span>- Centro, Monterrey.</p>
+                                    <p><span>Álvaro Obregón 327 </span> Centro, Monterrey.</p>
                                 </div>
                                 <div class="contact-mata">
                                     <i class="fa fa-phone"></i>
@@ -159,9 +166,12 @@
                                     <p><a href="mailto:info@hapec.com.mx">info@hapec.com.mx</a></p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-4 mt-30 mt-lg-0 text-left text-md-center text-lg-left">
-                                <h3>Nosotros</h3>
-                                <p>Empresa mexicana líder en el rubro de distribución de materiales para construcción. Contamos con una amplia gama de productos que cubren cada una de las necesidades de nuestros clientes.</p>
+                            <div class="col-md-3 col-lg-3 mt-3 text-left text-md-center text-lg-left">
+                                <h3>Síguenos En:</h3>
+                                <ul class="social-icon liquid-animate theme-color icon-size-small text-left mt-20">
+                                    <li class="facebook"><a href="https://www.facebook.com/hapecdistribuidora/" target="_blank" class="link rounded-0" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                                    <li class="linkedin"><a href="https://www.linkedin.com/company/hapecdistribuidora/" target="_blank" class="link rounded-0" aria-label="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>

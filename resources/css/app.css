@@ -2,3 +2,19 @@
 html {
     scroll-behavior: smooth !important; 
 }
+
+.sl-hero-props-carousel-1 .sl-carousel-controls a {
+    background-color: #000;
+}
+.box-icon-classic-title::after {
+    border-top: none !important;
+}
+.sl-hero-props-carousel-1-prices .carousel-item .sl-cta {
+    top: 50% !important;
+}
+
+.footer-link {
+    color: #fff;
+    cursor: none;
+    margin: 10px 0px;
+}

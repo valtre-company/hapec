@@ -6,6 +6,7 @@ use App\Jobs\SendMailJob;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Validator;
 
 class IndexController extends Controller
@@ -18,10 +19,16 @@ class IndexController extends Controller
 
     public function downloadCatalogue (Request $request)
     {
-        $catalogue_path = public_path('files/BrochureCatalogoHapec.pdf');
+        $path = public_path('files/BrochureCatalogoHapec.pdf');
 
-        return response()
-            ->download($catalogue_path);
+        $filename = 'BrochureCatalogoHapec.pdf';
+
+        return Response::make(file_get_contents($path), 200, [
+            'Content-Type' => 'application/pdf',
+            'Content-Disposition' => 'inline; filename="'.$filename.'"'
+        ]);
+        // return response()
+        //     ->download($catalogue_path);
     }
 
     public function contactView ()
