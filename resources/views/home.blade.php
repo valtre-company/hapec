@@ -29,7 +29,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 col-md-8 col-lg-6">
-                                <div class="sl-caption-prop-title">Herramientas y Equipo Eléctrico</div>
+                                <div class="sl-caption-prop-title">Material Eléctrico</div>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 col-md-8 col-lg-6">
-                                <div class="sl-caption-prop-title">Plomería, Abrasivos<br>y Herramientas</div>
+                                <div class="sl-caption-prop-title">Plomería y Grifería</div>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 col-md-8 col-lg-6">
-                                <div class="sl-caption-prop-title">Equipo de Protección y Herramientas</div>
+                                <div class="sl-caption-prop-title">Equipo de Protección<br> y Abrasivos</div>
                             </div>
                         </div>
                     </div>
