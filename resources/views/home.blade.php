@@ -53,7 +53,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 col-md-8 col-lg-6">
-                                <div class="sl-caption-prop-title">Equipo de Protección<br> y Abrasivos</div>
+                                <div class="sl-caption-prop-title">Equipo de Protección,<br> Herramientas y Abrasivos</div>
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@
                                 <div class="list-header with-number with-number--theme">
                                     <div class="marker">02.</div>
                                     <div class="title-wrap">
-                                        <p>Equipo Y Material Eléctrico</p>
+                                        <p>Material Eléctrico</p>
                                     </div>
                                 </div>
                             </div>
