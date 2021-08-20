@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Inspections\Spam;
 use App\Jobs\SendMailJob;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -55,6 +56,9 @@ class IndexController extends Controller
                     ->with('error', '¡Oops! Los datos no son válidos.');
             }
 
+            resolve(Spam::class)->detect($request->email);
+            resolve(Spam::class)->detect($request->message);
+
             $data = [ // data to render on view
                 'name' => $request->name,
                 'email' => $request->email,
@@ -75,7 +79,8 @@ class IndexController extends Controller
             return redirect()
                 ->action([IndexController::class,'contactView'],'#appointment-form')
                 ->with('success', '¡Gracias por tu mensaje! En breve te responderémos.');
-        } catch (\Throwable $th) {            
+        } catch (\Throwable $th) {    
+            Log::debug($th->getMessage());        
             return redirect()
                 ->action([IndexController::class,'contactView'],'#appointment-form')
                 ->with('success', '¡Gracias por tu mensaje! En breve te responderémos.');

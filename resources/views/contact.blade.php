@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <form id="appointment-form" action="{{ route('contact.send') }}" method="POST" class="card p-3 p-lg-5 border-0 shadow-large">
+                <form id="appointment-form" action="{{ route('contact.send') }}" method="POST" class="card p-3 p-lg-5 border-0 shadow-large" novalidate>
                     <h3 class="mb-4 text-center text-md-left">Tu Mensaje</h3>
                     @if (session('success'))
                     <p class="alert alert-success font-size-18 text-center mt-2" role="alert">
@@ -53,9 +53,8 @@
 
                     @csrf
                     <div class="field-wrapper mb-4">
-                        <label for="name" class="sr-only">Nombre Completo</label>
-                        <input type="text" class="rounded-0" name="name" id="name" minlength="10" value="">
-                        <span class="field-placeholder">Nombre Completo</span>
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" class="rounded-0" name="name" id="name" minlength="10" value="{{ old('name') }}">
                         @error('name')
                         <span class="invalid-feedback d-block" role="alert">
                             <strong>{{ $message }}</strong>
@@ -63,9 +62,8 @@
                         @enderror
                     </div>
                     <div class="field-wrapper mb-4">
-                        <label for="email" class="sr-only">Correo Electrónico</label>
-                        <input type="email" class="rounded-0" name="email" id="email" minlength="8" value="">
-                        <span class="field-placeholder">Correo Electrónico</span>
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" class="rounded-0" name="email" id="email" minlength="8" value="{{ old('email') }}">
                         @error('email')
                         <span class="invalid-feedback d-block" role="alert">
                             <strong>{{ $message }}</strong>
@@ -73,9 +71,8 @@
                         @enderror
                     </div>
                     <div class="field-wrapper mb-4">
-                        <label for="phone" class="sr-only">Teléfono</label>
-                        <input type="phone" class="rounded-0" name="phone" minlength="10" maxlength="15" value="">
-                        <span class="field-placeholder">Teléfono</span>
+                        <label for="phone">Teléfono</label>
+                        <input type="phone" class="rounded-0" name="phone" minlength="10" maxlength="15" value="{{ old('phone') }}">
                         @error('phone')
                         <span class="invalid-feedback d-block" role="alert">
                             <strong>{{ $message }}</strong>
@@ -83,9 +80,8 @@
                         @enderror
                     </div>
                     <div class="field-wrapper mb-4">
-                        <label for="message" class="sr-only">Mensaje</label>
-                        <textarea cols="50" id="message" name="message" class="rounded-0" rows="5" minlength="20"></textarea>
-                        <span class="field-placeholder">Ingresa Tu Mensaje</span>
+                        <label for="message">Mensaje</label>
+                        <textarea cols="50" id="message" name="message" class="rounded-0" rows="5" minlength="20">{{ old('message') }}</textarea>
                         @error('message')
                         <span class="invalid-feedback d-block" role="alert">
                             <strong>{{ $message }}</strong>
