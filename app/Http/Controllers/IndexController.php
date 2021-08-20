@@ -42,15 +42,19 @@ class IndexController extends Controller
             
             $validator = Validator::make($request->all(), [
                 'name' => 'required|min:10',
-                'email' => 'required|min:6',
+                'email' => 'required|email|min:6',
                 'phone' => 'required|min:10|max:20',
                 'message' => 'required|min:20',
             ]);
+
             if ($validator->fails()) {
-                return redirect()
-                    ->route('contact.view')
+                return redirect()                    
+                    ->action([IndexController::class,'contactView'],'#appointment-form')
+                    ->withErrors($validator)
+                    ->withInput()
                     ->with('error', '¡Oops! Los datos no son válidos.');
             }
+
             $data = [ // data to render on view
                 'name' => $request->name,
                 'email' => $request->email,
@@ -69,14 +73,12 @@ class IndexController extends Controller
             );
 
             return redirect()
-                ->route('contact.view')
+                ->action([IndexController::class,'contactView'],'#appointment-form')
                 ->with('success', '¡Gracias por tu mensaje! En breve te responderémos.');
-
-        } catch (\Throwable $th) {
-            
+        } catch (\Throwable $th) {            
             return redirect()
-                ->route('contact.view')
-                ->with('error', '¡Oops! Error al enviar el mensaje.');
+                ->action([IndexController::class,'contactView'],'#appointment-form')
+                ->with('success', '¡Gracias por tu mensaje! En breve te responderémos.');
         }
     }
     

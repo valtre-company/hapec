@@ -149,7 +149,7 @@
                                                 <tbody>
                                                     <tr>
                                                         <td style="width:72px;">
-                                                            <img height="auto" src="{{ asset('img/logo/1.png') }}"
+                                                            <img height="auto" src="https://hapec.com.mx/img/logo/1.png"
                                                                 style="border:0;display:block;outline:none;text-decoration:none;width:100%;"
                                                                 width="64" />
                                                         </td>
