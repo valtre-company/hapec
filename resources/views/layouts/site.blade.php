@@ -159,11 +159,11 @@
                                 </div>
                                 <div class="contact-mata">
                                     <i class="fa fa-phone"></i>
-                                    <p>(81) 1038 2831</p>
+                                    <p>811 99 68 479</p>
                                 </div>
                                 <div class="contact-mata">
                                     <i class="fa fa-envelope"></i>
-                                    <p><a href="mailto:info@hapec.com.mx">info@hapec.com.mx</a></p>
+                                    <p><a href="mailto:info@hapec.com.mx">ventas@hapec.com.mx</a></p>
                                 </div>
                             </div>
                             <div class="col-md-3 col-lg-3 mt-3 text-left text-md-center text-lg-left">
