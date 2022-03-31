@@ -72,7 +72,7 @@
                                 <div class="header-right">
                                     <a href="#" class="btn p-0 d-none d-md-block d-lg-none d-xl-block">
                                         <span class="icon-button-rl btn-ex-small rounded-0 w-100 bg-color border border-color text-white">
-                                            <span>Llámanos: (81) 1038 2831</span>
+                                            <span>Llámanos: 811 99 68 479</span>
                                         </span>
                                     </a>
                                     <!-- Start Hamberger -->
